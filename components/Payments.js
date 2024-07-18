@@ -9,7 +9,7 @@ const Payments = () => {
 
     const subscribe = async () => {
         try {
-            const response = await fetch('http://localhost:3000/pay', {
+            const response = await fetch('https://stripebackend-vhjy.onrender.com/pay', {
                 method: 'POST',
                 body: JSON.stringify({ name, amount }),
                 headers: {

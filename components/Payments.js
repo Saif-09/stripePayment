@@ -39,7 +39,7 @@ const Payments = () => {
 
     return (
         <View style={styles.container}>
-            <Text style={styles.title}>Payment</Text>
+            <Text style={styles.title}>Stripe Payment Demo</Text>
             <TextInput
                 value={name}
                 onChangeText={(text) => setName(text)}
